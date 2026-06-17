@@ -1,4 +1,4 @@
-# Nischal S Narayan — Portfolio
+# Nischal S Narayana — Portfolio
 
 A minimal, high-contrast editorial portfolio for an **Enterprise, Cloud & AI Solutions Architect**.
 Design language inspired by [koziol.design](https://koziol.design): bold typography, custom cursor,
@@ -62,4 +62,4 @@ Your site will be live at `https://<username>.github.io/<repo>/`.
 
 ---
 
-© Nischal S Narayan. Designed & built from first principles.
+© Nischal S Narayana. Designed & built from first principles.

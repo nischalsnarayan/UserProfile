@@ -1,5 +1,5 @@
 /* =========================================================
-   Nischal S Narayan — Portfolio interactions
+   Nischal S Narayana — Portfolio interactions
    ========================================================= */
 (function () {
   "use strict";
