@@ -9,6 +9,11 @@
   const $ = (s, c = document) => c.querySelector(s);
   const $$ = (s, c = document) => Array.from(c.querySelectorAll(s));
 
+  /* ---------- Always start at the top on load ---------- */
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  window.scrollTo(0, 0);
+  window.addEventListener("load", () => window.scrollTo(0, 0));
+
   /* ---------- Year ---------- */
   $("#year").textContent = new Date().getFullYear();
 
@@ -41,6 +46,7 @@
     }, 90);
     function finish() {
       setTimeout(() => {
+        window.scrollTo(0, 0);
         preloader.classList.add("is-done");
         startHero();
         setTimeout(() => preloader.remove(), 1100);
