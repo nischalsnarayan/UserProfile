@@ -164,9 +164,11 @@ em { font-style: normal; color: var(--accent); }
 
 .hero__title {
   font-family: var(--ff-display); font-weight: 500;
-  font-size: clamp(3.4rem, 15vw, 16rem); line-height: .86; letter-spacing: -.045em;
-  margin: auto 0;
+  /* Sized so the longest word ("Implementation.") always fits the viewport */
+  font-size: clamp(2.2rem, 11vw, 13rem); line-height: .9; letter-spacing: -.04em;
+  margin: auto 0; max-width: 100%;
 }
+.hero__title .line span { white-space: nowrap; }
 .hero__title .line { display: block; overflow: hidden; }
 .hero__title .line span { display: block; transform: translateY(110%); }
 
